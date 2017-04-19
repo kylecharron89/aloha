@@ -1,0 +1,44 @@
+.flexbox{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 50px;
+}
+.logo{
+  height: auto;
+  width: 25%;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  background-image: url("flower-bkgd.jpg");
+}
+.girl{
+  padding-top: 50px;
+  background-image: url("banner-girl.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.collection{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+.spring{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #ffffff;
+}
+.styles{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.style-1{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
