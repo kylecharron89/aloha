@@ -10,7 +10,12 @@
   border-bottom: solid;
   border-width: 1px;
   border-color: #d7d7d7;
-
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+  color: #e2574c;
 }
 .logo{
   height: auto;
@@ -45,6 +50,7 @@
   padding-top: 20px;
   padding-bottom: 50px;
   text-align: center;
+  line-height: 30px;
 }
 .products{
   display: flex;
@@ -85,14 +91,17 @@
 .updates{
   display: flex;
   align-items: center;
-  background-image: url("wave-bkgd.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url("wave-bkgd.jpg") no-repeat fixed center;
+  width: auto;
+  height: 60%;
 }
 .signup{
-  padding-top: 100px;
-  padding-bottom: 50px;
   text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  line-height: 30px;
+  text-shadow: 2px 2px grey;
 }
 .footer{
   text-align: center;
