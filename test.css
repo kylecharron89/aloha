@@ -1,0 +1,49 @@
+.clothes{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.knit{
+  text-align: center;
+  padding-top: 20px;
+}
+.cotton{
+  text-align: center;
+  padding-top: 20px;
+}
+.stretch{
+  text-align: center;
+  padding-top: 20px;
+}
+.hipster{
+  text-align: center;
+  padding-top: 20px;
+}
+.blue{
+  text-align: center;
+  padding-top: 20px;
+}
+.yellow{
+  text-align: center;
+  padding-top: 20px;
+}
+.dotted{
+  text-align: center;
+  padding-top: 20px;
+}
+.shorts{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+@media only screen and (min-width: 1000px){
+p{
+    font-size: 16px;
+}
+.clothes{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+}

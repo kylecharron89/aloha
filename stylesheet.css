@@ -1,3 +1,4 @@
+/*For Mobile*/
 .flexbox{
   display: flex;
   flex-direction: column;
@@ -16,6 +17,7 @@
   justify-content: space-around;
   font-family: 'Raleway', sans-serif;
   color: #e2574c;
+  font-size: 20px;
 }
 .logo{
   height: auto;
@@ -86,6 +88,22 @@
 .hipster{
   text-align: center;
   padding-top: 20px;
+}
+.blue{
+  text-align: center;
+  padding-top: 20px;
+}
+.yellow{
+  text-align: center;
+  padding-top: 20px;
+}
+.dotted{
+  text-align: center;
+  padding-top: 20px;
+}
+.shorts{
+  text-align: center;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 .updates{
@@ -127,4 +145,44 @@ h1, h2, h3, h4{
 }
 .orangefont{
   color: #e2574c;
+}
+.id{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  padding-bottom: 50px;
+
+}
+/*For Desktop*/
+@media only screen and (min-width: 1000px){
+p{
+    font-size: 16px;
+}
+.clothes{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.updates{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact{
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 20px;
+}
+.id{
+  align-items: center;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-top: 20px;
+}
 }
