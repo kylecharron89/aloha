@@ -164,6 +164,19 @@ h1, h2, h3, h4{
 .orangefont{
   color: #e2574c;
 }
+.box{
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.entry{
+  font-family: 'Raleway', sans-serif;
+  color: #d7d7d7;
+}
+.buttonpress{
+  font-family: 'Raleway', sans-serif;
+  color: #d7d7d7;
+  background-color: #e2574c;
+}
 .id{
   display: flex;
   flex-direction: row;
@@ -203,4 +216,5 @@ p{
   padding-right: 20px;
   padding-top: 20px;
 }
+
 }
