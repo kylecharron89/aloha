@@ -34,7 +34,7 @@
 .banner{
   display: flex;
   justify-content: center;
-  background-image: url("flower-bkgd.jpg");
+  background-image: url("images/flower-bkgd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 75px;
@@ -54,19 +54,37 @@
   text-align: center;
   line-height: 30px;
 }
-.products{
+.category{
   display: flex;
-  flex-flow: column wrap;
-  border-top: solid;
-  border-width: 1px;
-  align-items: center;
-  border-color: #d7d7d7;
-  padding-top: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  max-height: auto;
+}
+.men{
+  flex-grow: 5;
+  height: 300px;
+  width: 100%;
+}
+.trendsglasses{
+  flex-grow: 5;
+}
+.salebag{
+  flex-grow: 5;
+}
+.women{
+  flex-grow: 5;
 }
 .love{
-  padding-top: 20px;
+  border-top: solid;
+  border-width: 1px;
+  border-color: #d7d7d7;
+  padding-top: 30px;
   padding-bottom: 40px;
   text-align: center;
+}
+.main-carousel{
+  align-content: center;
 }
 .clothes{
   display: flex;
@@ -109,7 +127,7 @@
 .updates{
   display: flex;
   align-items: center;
-  background: url("wave-bkgd.jpg") no-repeat fixed center;
+  background: url("images/wave-bkgd.jpg") no-repeat fixed center;
   width: auto;
   height: 60%;
 }
